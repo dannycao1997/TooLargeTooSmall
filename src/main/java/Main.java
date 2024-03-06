@@ -23,6 +23,8 @@ public class Main {
         System.out.println("Guess and enter a number from 0 -5 : ");
         int input = scanner.nextInt();
 
+        if()
+
 
 
     }
