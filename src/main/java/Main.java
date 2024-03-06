@@ -12,14 +12,18 @@ public class Main {
 
     public static int getRandomNumber() {
         Random random = new Random();
-        int randomNumber = random.nextInt(5);
+        int randomNumber = random.nextInt(6); // 0-5 numbers
         return randomNumber;
     }
 
     public static void startGame() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        
+        int randomGuess = getRandomNumber();
+
+        System.out.println("Guess and enter a number from 0 -5 : ");
+        int input = scanner.nextInt();
+
+
 
     }
 }
